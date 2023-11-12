@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Budibase</Name>
+  <Repository>budibase/budibase</Repository>
+  <Registry>https://hub.docker.com/r/budibase/budibase/</Registry>
+  <Network>br0</Network>
+  <MyIP>10.10.1.91</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/budibase/budibase/</Support>
+  <Project>https://budibase.com/</Project>
+  <Overview>Budibase AIO Docker, for use as a single image which provides all necessary services.</Overview>
+  <Category>Productivity: Tools: Other: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://sendtomail.com/icon/budibase.png?v=latest</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1699786183</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Data - Main" Target="/data" Default="/mnt/user/appdata/budibase/data/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Data - CouchDB" Target="/opt/couchdb/data" Default="/mnt/user/appdata/budibase/couchdb_data/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="HTTP" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <Config Name="HTTPS" Target="443" Default="443" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">443</Config>
+  <Config Name="MINIO_ACCESS_KEY" Target="MINIO_ACCESS_KEY" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="MINIO_SECRET_KEY" Target="MINIO_SECRET_KEY" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="REDIS_PASSWORD" Target="REDIS_PASSWORD" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="INTERNAL_API_KEY" Target="INTERNAL_API_KEY" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="JWT_SECRET" Target="JWT_SECRET" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="CUSTOM_DOMAIN" Target="CUSTOM_DOMAIN" Default="" Mode="" Description="Fill in your domain name to use a personal domain.&#13;&#10;https://www.example.com/" Type="Variable" Display="always" Required="false" Mask="false"/>
+</Container>
