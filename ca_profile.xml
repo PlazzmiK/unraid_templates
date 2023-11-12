@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://sendtomail.com/icon/logo.png?v=profile</Icon>
+  <Profile>
+    Checking and adding docker containers to Unraid...
+  </Profile>
+  <DonateLink>https://www.Teunis.be</DonateLink>
+  <DonateText>Check out my other stuff.</DonateText>
+</Maintainer>
