@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>zoraxy</Name>
+  <Repository>zoraxydocker/zoraxy</Repository>
+  <Registry>https://hub.docker.com/r/zoraxydocker/zoraxy/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/zoraxydocker/zoraxy/</Support>
+  <Project/>
+  <Overview>General purpose (reverse) proxy and forwarding tool for networking noobs.&#xD;
+&#xD;
+https://hub.docker.com/r/zoraxydocker/zoraxy/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://wwww.sendtomail.com/icon/zoraxy.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Path 1" Target="/opt/zoraxy/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/zoraxy</Config>
+  <Config Name="HTTP (tcp)" Target="80" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+  <Config Name="HTTP (udp)" Target="80" Default="80" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+  <Config Name="HTTPS (tcp)" Target="443" Default="443" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
+  <Config Name="HTTPS (udp)" Target="443" Default="443" Mode="udp" Description="" Type="Port" Display="always" Required="true" Mask="false">443</Config>
+  <Config Name="Web UI" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
+  <TailscaleStateDir/>
+</Container>
