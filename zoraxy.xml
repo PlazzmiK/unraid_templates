@@ -15,7 +15,7 @@ https://hub.docker.com/r/zoraxydocker/zoraxy/</Overview>
   <Category/>
   <WebUI>http://[IP]:[PORT:8000]/</WebUI>
   <TemplateURL/>
-  <Icon>https://wwww.sendtomail.com/icon/zoraxy.png</Icon>
+  <Icon>https://wwww.sendtomail.com/icon/zoraxy.png?v=latest</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
