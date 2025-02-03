@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://sendtomail.com/icon/logo.png?v=profile</Icon>
+  <Icon>https://raw.githubusercontent.com/PlazzmiK/unraid_templates/main/images/profile.png</Icon>
   <Profile>
-    Checking and adding docker containers to Unraid...
+    Checking and adding docker containers to Unraid that I personaly use...
   </Profile>
   <DonateLink>https://www.Teunis.be</DonateLink>
   <DonateText>Check out my other stuff.</DonateText>
+  <WebPage>https://www.Teunis.be</WebPage>
 </Maintainer>
