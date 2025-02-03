@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>zoraxy</Name>
+  <Name>Zoraxy</Name>
   <Repository>zoraxydocker/zoraxy</Repository>
   <Registry>https://hub.docker.com/r/zoraxydocker/zoraxy/</Registry>
   <Network>bridge</Network>
@@ -8,14 +8,27 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/zoraxydocker/zoraxy/</Support>
-  <Project/>
-  <Overview>General purpose (reverse) proxy and forwarding tool for networking noobs.&#xD;
+  <Project>https://zoraxy.aroz.org/</Project>
+  <Overview>Beyond Reverse Proxy: Your Ultimate Homelab Network Tool&#xD;
+- Reverse Proxy&#xD;
+- Redirection&#xD;
+- Geo-IP & Blacklist&#xD;
+- Global Area Network&#xD;
+- Web SSH&#xD;
+- Real Time Statistics&#xD;
+- Scanner & Utilities&#xD;
+- Open Source&#xD;
 &#xD;
-https://hub.docker.com/r/zoraxydocker/zoraxy/</Overview>
-  <Category/>
+General purpose (reverse) proxy and forwarding tool for networking noobs.&#xD;
+&#xD;
+Website: https://zoraxy.aroz.org/&#xD;
+Source: https://github.com/tobychui/zoraxy&#xD;
+Docker: https://hub.docker.com/r/zoraxydocker/zoraxy/</Overview>
+  <Category>Network:Proxy Tools: Other: Security: Status:Stable</Category>
+  <ExtraSearchTerms>home lab docker containers management gui web interface reverse proxy reverseproxy nginx ui nginxui stats blocking geoip geo-ip open source opensource</ExtraSearchTerms>
   <WebUI>http://[IP]:[PORT:8000]/</WebUI>
   <TemplateURL/>
-  <Icon>https://wwww.sendtomail.com/icon/zoraxy.png?v=latest</Icon>
+  <Icon>https://raw.githubusercontent.com/PlazzmiK/unraid_templates/main/images/zoraxy.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
