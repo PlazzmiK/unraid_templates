@@ -12,11 +12,11 @@
   <Overview>Beyond Reverse Proxy: Your Ultimate Homelab Network Tool&#xD;
 - Reverse Proxy&#xD;
 - Redirection&#xD;
-- Geo-IP & Blacklist&#xD;
+- Geo-IP &amp; Blacklist&#xD;
 - Global Area Network&#xD;
 - Web SSH&#xD;
 - Real Time Statistics&#xD;
-- Scanner & Utilities&#xD;
+- Scanner &amp; Utilities&#xD;
 - Open Source&#xD;
 &#xD;
 General purpose (reverse) proxy and forwarding tool for networking noobs.&#xD;
