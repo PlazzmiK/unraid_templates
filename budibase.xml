@@ -3,8 +3,8 @@
   <Name>Budibase</Name>
   <Repository>budibase/budibase</Repository>
   <Registry>https://hub.docker.com/r/budibase/budibase/</Registry>
-  <Network>br0</Network>
-  <MyIP>10.10.1.91</MyIP>
+  <Network>bridge</Network>
+  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://hub.docker.com/r/budibase/budibase/</Support>
@@ -13,11 +13,11 @@
   <Category>Productivity: Tools: Other: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL/>
-  <Icon>https://sendtomail.com/icon/budibase.png?v=latest</Icon>
+  <Icon>https://raw.githubusercontent.com/PlazzmiK/unraid_templates/main/images/budibase.png</Icon>
+  <ExtraSearchTerms>docker containers management gui web interface open source opensource simple app database</ExtraSearchTerms>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1699786183</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
