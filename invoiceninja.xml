@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Invoice Ninja</Name>
+  <Repository>zoraxydocker/zoraxy</Repository>
+  <Registry>https://hub.docker.com/r/invoiceninja/invoiceninja-debian</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/invoiceninja/dockerfiles</Support>
+  <Project>https://invoiceninja.com/</Project>
+  <Overview>Leading free invoice generator for freelancers and small businesses.&#xD;
+Invoice clients, accept payments, track expenses & time billable-tasks online.&#xD;
+&#xD;
+Invoice Ninja is an invoicing application which makes sending invoices and receiving payments simple and easy.&#xD;
+Our latest version is a clean slate rewrite of our popular invoicing application which builds on the existing feature set and adds a wide range of features and enhancements the community has asked for.
+&#xD;
+Website: https://www.invoiceninja.org/&#xD;
+Source: https://github.com/invoiceninja/invoiceninja&#xD;
+Docker: https://github.com/invoiceninja/dockerfiles</Overview>
+  <Category>Productivity Tools:Utilities Other: Status:Stable</Category>
+  <ExtraSearchTerms>invoice invoicing taxes tax invoiceplane invoice-plane invoice-ninja v5 expenses self-employed docker debian gui web-gui self-hosted invoiceninja open source opensource</ExtraSearchTerms>
+  <WebUI>http://[IP]:[PORT:9000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/PlazzmiK/unraid_templates/main/images/invoiceninja.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Path 1" Target="/var/invoiceninja/public" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/invoiceninja_docker/public</Config>
+  <Config Name="Container Path 1" Target="/var/invoiceninja/storage" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/invoiceninja_docker/storage</Config>
+  <Config Name="Web UI" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="true">9000</Config>
+  <Config Name="APP_ENV" Target="APP_ENV" Default="production" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">production</Config>
+  <Config Name="APP_DEBUG" Target="APP_DEBUG" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">0</Config>
+  <Config Name="APP_URL" Target="APP_URL" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="APP_KEY" Target="APP_KEY" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="DB_TYPE" Target="DB_TYPE" Default="mysql" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mysql</Config>
+  <Config Name="DB_STRICT" Target="DB_STRICT" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
+  <Config Name="DB_HOST" Target="DB_HOST" Default="localhost" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">localhost</Config>
+  <Config Name="DB_DATABASE" Target="DB_USERNAME" Default="ninja" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">ninja</Config>
+  <Config Name="DB_USERNAME" Target="DB_USERNAME" Default="ninja" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">ninja</Config>
+  <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="ninja" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">ninja</Config>
+  <TailscaleStateDir/>
+</Container>  
