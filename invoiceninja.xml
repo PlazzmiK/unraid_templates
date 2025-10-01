@@ -15,6 +15,8 @@ Invoice clients, accept payments, track expenses & time billable-tasks online.&#
 Invoice Ninja is an invoicing application which makes sending invoices and receiving payments simple and easy.&#xD;
 Our latest version is a clean slate rewrite of our popular invoicing application which builds on the existing feature set and adds a wide range of features and enhancements the community has asked for.
 &#xD;
+WARNING : If IN_USER_EMAIL and IN_PASSWORD are not set the default user email and password is "admin@example.com" and "changeme!" respectively.&#xD;
+&#xD;
 Website: https://www.invoiceninja.org/&#xD;
 Source: https://github.com/invoiceninja/invoiceninja&#xD;
 Docker: https://github.com/invoiceninja/dockerfiles</Overview>
