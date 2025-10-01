@@ -33,9 +33,12 @@ Docker: https://github.com/invoiceninja/dockerfiles</Overview>
   <Config Name="Container Path 1" Target="/var/invoiceninja/public" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/invoiceninja_docker/public</Config>
   <Config Name="Container Path 1" Target="/var/invoiceninja/storage" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/invoiceninja_docker/storage</Config>
   <Config Name="Web UI" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="true">9000</Config>
+  <Config Name="REQUIRE_HTTPS" Target="REQUIRE_HTTPS" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
   <Config Name="APP_ENV" Target="APP_ENV" Default="production" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">production</Config>
   <Config Name="APP_DEBUG" Target="APP_DEBUG" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">0</Config>
-  <Config Name="APP_URL" Target="APP_URL" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">CHANGE_ME_PLEASE</Config>
+  <Config Name="IN_USER_EMAIL" Target="IN_USER_EMAIL" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="IN_PASSWORD" Target="IN_PASSWORD" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APP_URL" Target="APP_URL" Default="http://CHANGE_ME_PLEASE/" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">http://CHANGE_ME_PLEASE/</Config>
   <Config Name="APP_KEY" Target="APP_KEY" Default="CHANGE_ME_PLEASE" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">CHANGE_ME_PLEASE</Config>
   <Config Name="DB_TYPE" Target="DB_TYPE" Default="mysql" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mysql</Config>
   <Config Name="DB_STRICT" Target="DB_STRICT" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
