@@ -45,7 +45,7 @@ Docker: https://github.com/invoiceninja/dockerfiles</Overview>
   <Config Name="DB_TYPE" Target="DB_TYPE" Default="mysql" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">mysql</Config>
   <Config Name="DB_STRICT" Target="DB_STRICT" Default="false" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">false</Config>
   <Config Name="DB_HOST" Target="DB_HOST" Default="localhost" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">localhost</Config>
-  <Config Name="DB_DATABASE" Target="DB_USERNAME" Default="ninja" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">ninja</Config>
+  <Config Name="DB_DATABASE" Target="DB_DATABASE" Default="ninja" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">ninja</Config>
   <Config Name="DB_USERNAME" Target="DB_USERNAME" Default="ninja" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">ninja</Config>
   <Config Name="DB_PASSWORD" Target="DB_PASSWORD" Default="ninja" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">ninja</Config>
   <TailscaleStateDir/>
